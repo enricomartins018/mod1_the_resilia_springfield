@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://static.simpsonswiki.com/images/thumb/b/b3/The_Springfield_Files.png/250px-The_Springfield_Files.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 46px;
+    background-color: rgba(9, 255, 0, 0.623);
+}
+
+
+.titulo1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.titulo2{
+    text-align: center;
+    color: white;
+}
+
+.titulo3{
+    text-align: center;
+    color: white;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.botaoresposta{
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 95, 3, 0.733);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+.escolhas{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: rgba(8, 104, 4, 0.822);
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 1em;
+}
+
+
+
+

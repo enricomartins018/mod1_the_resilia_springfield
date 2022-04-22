@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://assets.reedpopcdn.com/139686112621.png/BROK/resize/1200x1200%3E/format/jpg/quality/70/139686112621.png); 
+    background-size: cover; 
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-shadow: black 0.1em 0.1em 0.2em
+    /* background-color: rgba(0, 0, 0, 0.541);
+    border: 3px solid yellow; */
+}
+
+
+.botoesvoltar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.541);
+    border: 3px solid red; */
+ 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 74px;
+    background-color: rgba(255, 0, 0, 0.541);
+}
+
+.titulo1{
+    color: white;
+}
+
+.titulo2{
+    color: white;
+}
+
+.titulo3{
+    color: white;
+}
+
+.botaoinicio{
+    background-image: linear-gradient( rgb(0, 0, 0), #ff00007c);
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.botaopersonagem{
+    background-image: linear-gradient( rgb(0, 0, 0), #ff00007c);
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+ 
+}
+
+.botoesvoltar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ 
+}
+
+.voltarinicio{
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.voltarpersonagem{
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.titulogameover{
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em
+}

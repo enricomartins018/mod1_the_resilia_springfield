@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/38/0f/92/380f9275ac8d0de9f00ec3d8433e5ec8.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 37px;
+    background-color: #ff000080;
+}
+
+
+.titulo1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.titulo2{
+    text-align: center;
+    color: white;
+}
+
+.titulo3{
+    text-align: center;
+    color: white;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.botaoresposta{
+    color: rgb(255, 255, 255);
+    background-color: #5e0404;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.escolhas{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: #5e0404;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 1em;
+}
+
+
+
+

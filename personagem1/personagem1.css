@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://c.tenor.com/zrc27RL8IQEAAAAC/traigoamor-burns-simpsons-extraterrestre-alien-traigo-amor-traigo-paz.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    background-color: rgba(9, 255, 0, 0.623);
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+.titulo1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo3{
+    text-align: center;
+    color: white;
+}
+
+.titulo4{
+    text-align: center;
+    color: #ffffff;
+}
+
+.botaocomecar{
+    background-color: rgba(0, 0, 0, 0.623);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 15px 30px;
+}
+
+.comecar{
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.botaocomecar:hover{
+    transform: scale(1.2);
+}
+
+img{
+    border-radius: 100px;
+}
